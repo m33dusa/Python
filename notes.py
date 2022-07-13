@@ -128,3 +128,11 @@ def _the_kwargs(self, **kwargs):
         print('%s == %s' % (key, value))
 
 _the_kwargs('AUTHORS:', first= 'Oscar Wilde', second='Octavia Butler', third='James Baldwin')
+
+#__name___ is a special var that return the name of the module, useful for imports
+# =='__main__' string literal
+
+#Python doesn't support forward declarations.
+
+#when you assign a mutable, you're assigning reference to it.
+#functions work the same way.
